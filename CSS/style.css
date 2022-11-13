@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  
+}
+
+body {
+  display: flex;
+  background: #2f4f4f;
+  justify-content: center;
+  align-items: center;
+}
+
+.cv {
+  box-shadow: 1px 1px 10px 4px black;
+  display: flex;
+  height: 90vh;
+  width: 60vw;
+  flex-wrap: wrap;
+  z-index: 99;
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+.side {
+  width: 30%;
+  background: black;
+}
+
+.container {
+  color: white;
+}
+
+.main {
+  width: 70%;
+  flex-wrap: wrap;
+}
+
+table {
+  width: 100%;
+}
+em{
+  font-size: 12px;
+  color: silver;
+}
+h3 {
+  margin-top: 20px;
+  color: #729ea0;
+  font-size: 20px;
+}
+p{
+  margin-top: 15px;
+}
+h5{
+  font-size: 14px;
+  color:  #729ea0;
+}
+/*Licni podaci 1*/
+h4{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.container {
+  padding: 2px 16px;
+}
+
+.licni1 {
+  height: 30%;
+  background: white;
+  padding: 10px;
+}
+
+
+
+/*Licni podaci 2*/
+.obrazovanje {
+  height: 40%;
+  background: lightgray;
+  padding: 10px;
+}
+
+.lines {
+  height: 50px;
+}
+
+.bottom {
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+}
+
+/*Licni podaci 3*/
+.licni2 {
+  height: 30%;
+  padding: 10px;
+  background: white;
+}
+
+.main-para {
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .side,
+  .main {
+    flex: 100%;
+    max-width: 100%;
+   
+  }
+
+}
